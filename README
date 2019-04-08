@@ -1,0 +1,38 @@
+Jeanette Mui, jemui@ucsc.edu
+
+Asg5 - OOP Inheritance
+OpenGL in C++ to create a simple graphics package.
+Shapes are defined with a name, type of shape, and dimensions.
+They are then drawn with a color, defined name, and position.
+Borders and pixels to move the shape can also be specified.
+Numbers 0-9, F1-F9, and keys n (next) and p(previous) selects the shape.
+
+Example usage: 
+define ci circle 90
+draw yellow ci 500 300
+border white 8
+moveby 10
+
+> Draws a yellow circle with a white border at position (500,300)
+> Arrow keys or the keys i, j, k, l will move it by 10 pixels
+
+Starter code provided by Wesley Mackey.
+
+Files Submitted (17): 
+Makefile
+README
+debug.cpp
+debug.h
+graphics.cpp
+graphics.h
+interp.cpp
+interp.h
+main.cpp
+mk-colors.perl
+rgbcolor.cpp
+rgbcolor.h
+shape.cpp
+shape.h
+util.cpp
+util.h
+util.tcc
